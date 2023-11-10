@@ -126,19 +126,135 @@ body {
   bottom: 33px;
   top: auto;
 }
-/* @media (max-width: 900px) {
-  .scope-txt img {
-    margin-left: 10px;
-    width: 55%;
-    margin-top: -10px;
+@media (max-width: 900px) {
+  .l1 .l1-link img {
+    width: 115px;
+  }
+  .l1-txt {
+    position: absolute;
+    left: 61px;
+    top: 50px;
+    font-size: 12.5px;
+    line-height: 14px;
+  }
+  .l2-3 img {
+    width: 159px;
+  }
+  .l1 img {
+    width: 155px;
   }
   .center {
-    width: 60%;
+    width: 430px;
   }
-  .side {
-    width: 20%;
+  .l2-link {
+    position: absolute;
+    left: 21.5px;
+    top: 40px;
   }
-  .side img {
-    width: 100%;
+  .l1 a {
+    font-size: 10.5px;
+    line-height: 12px;
   }
-} */
+  .l3-link {
+    position: absolute;
+    left: 60.5px;
+    bottom: 33px;
+    top: auto;
+  }
+  .r1-txt {
+    position: absolute;
+    left: 24px;
+    top: 49px;
+    font-size: 12.5px;
+    line-height: 14px;
+  }
+  .r2-link {
+    position: absolute;
+    left: 55.5px;
+    top: 51px;
+  }
+
+  .center .center-txt {
+    bottom: 102px;
+    left: 179px;
+    font-size: 46px;
+    height: fit-content;
+  }
+}
+@media (max-width: 768px) {
+  .center {
+    width: 317px;
+  }
+  .center .center-txt {
+    bottom: 85px;
+    left: 151px;
+    font-size: 37px;
+    height: fit-content;
+  }
+  .l1 .l1-link img {
+    width: 78px;
+  }
+  .l1 img {
+    width: 115px;
+  }
+  .center .center-txt {
+    bottom: 74px;
+    left: 132px;
+    font-size: 34px;
+    height: fit-content;
+  }
+  .l1-txt {
+    position: absolute;
+    left: 52px;
+    top: 34px;
+    font-size: 8.5px;
+    line-height: 10px;
+  }
+  .l1 a {
+    font-size: 7.5px;
+    line-height: 10px;
+  }
+  .l2-link {
+    position: absolute;
+    left: 17.5px;
+    top: 29px;
+  }
+  .l3-link {
+    position: absolute;
+    left: 46.5px;
+    bottom: 27px;
+    top: auto;
+  }
+  .specsi {
+    width: 83px !important;
+  }
+  .r1-txt {
+    position: absolute;
+    left: 18px;
+    top: 37.3px;
+    font-size: 8.5px;
+    line-height: 10px;
+  }
+  .r2-link {
+    position: absolute;
+    left: 37.5px;
+    top: 32.2px;
+  }
+  .l1 .spec2 {
+    width: 104px;
+  }
+  .r3-link {
+    position: absolute;
+    left: 10.5px;
+    bottom: 20px;
+    top: auto;
+  }
+}
+@media (max-width: 525px) {
+  .center {
+    width: 260px;
+  }
+  .l1 .l1-link img {
+    width: 56px;
+  }
+}
