@@ -257,4 +257,11 @@ body {
   .l1 .l1-link img {
     width: 56px;
   }
+  .l1-txt {
+    position: absolute;
+    left: 70px;
+    top: 25px;
+    font-size: 6px;
+    line-height: 7px;
+  }
 }
