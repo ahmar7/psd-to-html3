@@ -4,7 +4,6 @@
 }
 body {
   margin: 0;
-  background-color: aqua;
   font-family: FuturaBold;
   box-sizing: border-box;
 }
@@ -253,15 +252,89 @@ body {
 @media (max-width: 525px) {
   .center {
     width: 260px;
+    margin-top: 11px;
   }
+  .center .center-txt {
+    bottom: 64px;
+    left: 110px;
+    font-size: 27px;
+    height: fit-content;
+  }
+
   .l1 .l1-link img {
-    width: 60px;
+    width: 70px;
+  }
+  .l1 a {
+    line-height: 9px;
+    font-size: 7.5px;
   }
   .l1-txt {
     position: absolute;
-    left: 65px;
-    top: 26px;
-    font-size: 7px;
-    line-height: 7px;
+    left: 53px;
+    top: 31px;
+    font-size: 7.5px;
+    line-height: 9px;
+  }
+  .flex-col.max-width {
+    margin-left: -19px;
+    margin-right: 0;
+  }
+  .lsm {
+    left: 18px;
+  }
+  .l2-link {
+    position: absolute;
+    left: 15px;
+    top: 27px;
+  }
+  .l1 img {
+    width: 110px;
+  }
+  .l3-link {
+    position: absolute;
+    left: 42.5px;
+    bottom: 26px;
+    top: auto;
+  }
+  .r3-link {
+    position: absolute;
+    left: 7.5px;
+    bottom: 17px;
+    top: auto;
+  }
+
+  .mt10 {
+    margin-top: 7px;
+  }
+
+  .r1-txt {
+    position: absolute;
+    left: 15px;
+    top: 32.3px;
+    font-size: 7.5px;
+    line-height: 9px;
+  }
+  .specsi {
+    width: 69px !important;
+  }
+  .r2-link {
+    position: absolute;
+    left: 29.5px;
+    top: 26.2px;
+  }
+  .l1 .spec2 {
+    width: 92px;
+  }
+}
+@media (max-width: 440px) {
+  .center {
+    width: 232px;
+    margin-top: 17px;
+  }
+  .center .center-txt {
+    bottom: 55px;
+    left: 97px;
+    font-size: 24px;
+    height: fit-content;
   }
 }
