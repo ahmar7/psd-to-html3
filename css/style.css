@@ -1,0 +1,144 @@
+@font-face {
+  font-family: FuturaBold;
+  src: url(../font/Futura\ Bold.otf);
+}
+body {
+  margin: 0;
+  background-color: aqua;
+  font-family: FuturaBold;
+  box-sizing: border-box;
+}
+.max-width {
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+.main-container {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+.mt10 {
+  margin-top: 10px;
+}
+.flex-col {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-inline: auto;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.center {
+  width: 540px;
+  position: relative;
+}
+.center .center-txt {
+  color: #2a2929;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: fit-content;
+  color: #2a2929;
+  position: absolute;
+  bottom: 135px;
+  left: 227px;
+  font-size: 55px;
+  height: fit-content;
+}
+/* .side {
+  width: 25%;
+} */
+.center img {
+  width: 100%;
+}
+.l1 img {
+  width: 180px;
+}
+.l2-3 img {
+  width: 215px;
+}
+.scope-txt {
+  text-align: center;
+}
+.scope-txt img {
+  width: 420px;
+  margin-top: -20px;
+}
+.l1 a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14.5px;
+  -webkit-font-smoothing: antialiased;
+  height: fit-content;
+  width: fit-content;
+  text-align: left;
+  line-height: 17px;
+}
+.l1 .l1-link img {
+  width: 146px;
+}
+
+.l1-txt {
+  position: absolute;
+  left: 97px;
+  top: 63px;
+  font-size: 15.5px;
+  line-height: 18px;
+}
+.r1-txt {
+  position: absolute;
+  left: 30px;
+  top: 63px;
+  font-size: 15.5px;
+  line-height: 18px;
+}
+.l1 {
+  position: relative;
+}
+.l2-link {
+  position: absolute;
+  left: 29.5px;
+  top: 58px;
+}
+.r2-link {
+  position: absolute;
+  left: 58.5px;
+  top: 54px;
+}
+.l3-link {
+  position: absolute;
+  left: 85.5px;
+  bottom: 49px;
+  top: auto;
+}
+.r3-link {
+  position: absolute;
+  left: 11.5px;
+  bottom: 33px;
+  top: auto;
+}
+/* @media (max-width: 900px) {
+  .scope-txt img {
+    margin-left: 10px;
+    width: 55%;
+    margin-top: -10px;
+  }
+  .center {
+    width: 60%;
+  }
+  .side {
+    width: 20%;
+  }
+  .side img {
+    width: 100%;
+  }
+} */
