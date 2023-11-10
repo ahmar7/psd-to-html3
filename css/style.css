@@ -255,13 +255,13 @@ body {
     width: 260px;
   }
   .l1 .l1-link img {
-    width: 56px;
+    width: 60px;
   }
   .l1-txt {
     position: absolute;
-    left: 70px;
-    top: 25px;
-    font-size: 6px;
+    left: 65px;
+    top: 26px;
+    font-size: 7px;
     line-height: 7px;
   }
 }
